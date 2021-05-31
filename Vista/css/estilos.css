@@ -1,0 +1,14 @@
+
+.form-small{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    
+}
+
+.form-big{
+    max-width: 1630px;
+    padding: 15px;
+    margin: 0 auto;
+}
+

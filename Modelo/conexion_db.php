@@ -1,4 +1,5 @@
 <?php
+
     //Conexión Base de datos
     $servidor = "localhost";
     $usuarioDB = "dogsyste_covbills";
@@ -6,8 +7,8 @@
     $nombreDB = "dogsyste_covbills";
 
     try{
-        $conexion = new PDO('mysql:host='.$servidor.';dbname='.$nombreDB.';');
-    }catch(){
-
+        $conexion = new PDO('mysql:host='.$servidor.';dbname='.$nombreDB.';',$usuarioDB,$passwordDB);
+    }catch(PDOException $e){
+        echo "Error: ". $e->getMessage(); 
     }
 ?>

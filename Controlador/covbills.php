@@ -1,4 +1,5 @@
 <?php
+    include_once("../Modelo/sesion.php");
     class CovBills{
         public $ingresototal = 0;
         public $gastoFijo = 0;
